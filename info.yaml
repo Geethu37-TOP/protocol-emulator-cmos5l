@@ -6,12 +6,8 @@ project:
   description: "A programmable processor for precise protocol emulation"
   language: "Verilog"
   clock_hz: 0
-
-  # How many tiles your design occupies? A single tile is about 167x108 uM.
-   tiles: "6x4"
-
+  tiles: "6x4"
   top_module: "tt_um_geethu37_proto"
-
   source_files:
     - "project.v"
 
